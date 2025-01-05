@@ -17,7 +17,7 @@ namespace _0105.大樂透
                 Numbers[i] = i + 1;
             }
             Random crandom = new Random();
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 5; i++)
             {
                 a = crandom.Next(1, Numbers.Length);
                 if (a < 10)
